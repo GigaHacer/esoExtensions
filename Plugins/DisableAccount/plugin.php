@@ -38,10 +38,14 @@ function init()
 	        	$password = $this->eso->db->escape(substr($hash, -32));
 
             		// See if there is a user with this ID and password hash. If there is, disable their account for them.
-	        	if (!empty($this->eso->db->result("SELECT name FROM {$config["tablePrefix"]}members WHERE memberId='$memberId' AND password='$password'"))) {
+	        	if (!empty($result = $this->eso->db->result("SELECT email FROM {$config["tablePrefix"]}members WHERE memberId='$memberId' AND password='$password'"))) {
+
+                		$newpassword = md5(generateRandomString(32));
+
+                		$newemail = $result["email"] . ".disabled";
 
                 		// Alright, let's disable the account.
-		        	$this->eso->db->query("UPDATE {$config["tablePrefix"]}members SET password='" . md5(rand() . rand(). rand(). rand() . rand()) . "', email='" . rand() . rand() . "@" . rand() . ".com' WHERE memberId='$memberId'");
+		        	$this->eso->db->query("UPDATE {$config["tablePrefix"]}members SET password='$newpassword', email='$newemail' WHERE memberId='$memberId'");
 
                 		// Notify the user.
 		        	$this->eso->message("accountDisabled");

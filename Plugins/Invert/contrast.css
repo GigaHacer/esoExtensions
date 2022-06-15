@@ -1,0 +1,2 @@
+html {filter:brightness(90%) !important; background:rgba(0,0,0,0.1)}
+img.avatar, div.avatar img, .c td.avatar img, .p .body img, .p .body video, .emoticon {filter:contrast(120%)}

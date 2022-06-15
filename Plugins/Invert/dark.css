@@ -1,0 +1,11 @@
+html {filter:invert(100%); background:#000000}
+#hdr h1 img {filter:brightness(0%)}
+img.avatar, div.avatar img, .c td.avatar img, .p .body img, .p .body video, .emoticon {filter:invert(100%)}
+a, .link, .p .hdr a.link, #gambits a, small a, dt a {color:#620273}
+/* #rss {filter:grayscale() brightness(50%) contrast(300%)} */
+.button {filter:grayscale() brightness(60%) contrast(200%)}
+a.star1 {color:#620273}
+a.star1:hover {color:#000}
+a.star0:hover {color:#00000085}
+#searchText, .pg, input.text, textarea, .starred td {background:#eee}
+.pg .unread {color:#1711ff; background:#e3daff}

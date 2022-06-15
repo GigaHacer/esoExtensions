@@ -1,0 +1,2 @@
+html {filter:brightness(90%) invert(100%) !important; background:#181818}
+img.avatar, div.avatar img, .c td.avatar img, .p .body img, .p .body video, .emoticon {filter:contrast(120%) invert(100%)}

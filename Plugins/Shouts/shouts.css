@@ -1,0 +1,23 @@
+.shouts form {overflow:hidden; font-size:120%; margin-bottom:10px; zoom:1}
+.shouts form .text {width:calc(100% - 70px); height:16px; margin:0; border-right:0; border-top-right-radius:0; border-bottom-right-radius:0}
+.shouts form span.button {position:absolute; height:20px; border-top-left-radius:0; border-bottom-left-radius:0}
+.shouts form span.button input {width:unset; height:20px}
+.shouts .pInfo {margin-left:10px; margin-right:20px}
+.shouts .pInfo span {margin-left:0}
+.shouts .p, .shouts .p .hdr {margin-bottom:4px; border:0}
+.shouts .p .hdr {height:auto; white-space:normal; padding:4px 8px 3px 4px}
+.shouts .p .hdr p a {text-decoration:underline}
+.shouts .avatar {width:32px; height:32px; float:left}
+.shouts p {margin:2px 0 0 0; margin-left:17em; word-break:break-word}
+#shouts:empty {margin-top:-6px}
+#shhdr {margin-top:5px}
+.body.shouts #more .msg {margin-top:0; margin-bottom:4px}
+
+/* Mobile support */
+@media only screen and (max-width:570px) {
+.shouts p {margin-left:0}
+}
+
+@media only screen and (max-width:450px) {
+#shouts .p .hdr .controls {float:right; clear:unset; margin:-1px 0 -3px 0; padding:0; background:unset; box-shadow:unset}
+}

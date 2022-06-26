@@ -1,0 +1,1 @@
+This skin was salvaged by me from here: https://web.archive.org/web/20090827143921/http://6rupees.com/ and ported to esoTalk delta.

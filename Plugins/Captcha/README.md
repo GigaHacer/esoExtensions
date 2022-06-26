@@ -1,0 +1,1 @@
+This plugin comes prepackaged with esoTalk delta.

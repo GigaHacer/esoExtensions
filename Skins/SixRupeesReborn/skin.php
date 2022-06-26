@@ -18,7 +18,7 @@ function init()
 {
 	global $config;
 	$this->eso->addCSS("skins/{$config["skin"]}/styles.css");
-    	$this->eso->addToHead("<link rel='shortcut icon' type='image/ico' href='skins/{$config["skin"]}/favicon.ico'/>");
+    $this->eso->addToHead("<link rel='shortcut icon' type='image/ico' href='skins/{$config["skin"]}/favicon.ico'/>");
 	$this->eso->addCSS("skins/{$config["skin"]}/base.css");
 	$this->eso->addCSS("skins/ie6.css", "ie6");
 	$this->eso->addCSS("skins/ie7.css", "ie7");

@@ -1,0 +1,1 @@
+This skin was created by Kid Pid. Some of the images in the skin may be subject to copyright.

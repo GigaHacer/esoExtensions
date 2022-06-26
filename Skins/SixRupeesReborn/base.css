@@ -278,7 +278,7 @@ form#settingsAvatar {padding-bottom:8px}
 #skins .preview span {display:block; margin-top:65px}
 
 /* Profile */
-.profile .body {overflow:visible; padding:5px 10px}
+.profile .body {overflow:visible; padding:5px 10px; word-wrap:break-word!important}
 .profile .form label {font-weight:normal; text-align:left; width:30%}
 .profile .form div {float:none; font-size:115%; margin-left:35%}
 .profile .form li {padding-left:10px}

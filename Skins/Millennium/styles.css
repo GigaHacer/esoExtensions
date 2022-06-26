@@ -1,0 +1,243 @@
+@media all {
+/* Main tags */
+body {font-family:'Comic Sans MS'; background:#ffffff; background-repeat:no-repeat}
+
+/* Misc */
+small, dt {color:#888}
+small a, dt a {color:#0000ff}
+#loading {background:#dcff52; border:solid #d4e58f; border-width:0 1px 1px 1px; box-shadow:rgba(0, 0, 0, 0.2) 0 0 3px; -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 0 3px}
+.enabled, #skins a:hover {background:#ffa}
+.disabled {color:#888}
+.disabled:hover {color:#888; text-decoration:none}
+.highlight {background:yellow}
+
+/* Header */
+#hdr {background:#c0c0c0}
+#hdr h1 a {color:#000}
+#hdr h1 a:hover {text-decoration:none}
+#hdr h1 a:hover span {text-decoration:underline}
+
+/* User bar */
+#bar {background:#c0c0c0; border-bottom:1px solid #000000; border-top:1px solid #000000}
+#bar strong a {color:#000}
+#bar span.button {border-radius:0}
+#bar li a span.button, #bar li a span.button {background:#808080; border:1px solid #000000}
+#bar li a span.button input, #bar li a span.button input {color:#fff}
+#bar li #nav-exit span.button, #bar li #rss span.button {background:#00ffff; border:1px solid #004080;}
+#bar li #nav-exit span.button input, #bar li #rss span.button input {color:#000000;}
+
+/* Body */
+#body {background:linear-gradient(#c0c0c0, #fff); background-repeat:no-repeat; background-size:100% 90px}
+#wrapper {border-top:0; border-bottom:0; border-left:1px solid; border-right:1px solid; border-image:#000000; border-image-slice:1; background:#fff}
+
+/* Tags & gambits */
+#tagArea {border:1px solid #000000}
+#tags a {color:#000000}
+#gambits a {color:#0000ff}
+
+/* Search form */
+#searchText {border-right:0}
+#submit {border-top-left-radius:0; border-bottom-left-radius:0}
+#reset {color:#c0c0c0}
+#searchText:focus + .fr #reset {color:#808080}
+#reset:hover, #searchText:focus ~ #reset:hover {text-decoration:none; color:#000}
+
+/* Messages */
+.msg .close {border:1px solid #fff; color:#fff; text-decoration:none}
+.msg .close:hover {background:#fff; color:#000; text-decoration:none}
+.msg .close:active {background:#808080}
+.msg {background:#c0c0c0}
+.info {background:#ffff00;}
+.success {background:#00ff00}
+.warning {background:#ff0000; color:#fff;}
+.warning a, .warning a:hover {color:#fff; text-decoration:underline}
+
+/* Stars */
+.star0 {color:#c0c0c0; font-size:50px}
+a.star0:hover {color:#ffff80}
+.star1, a.star1:hover {color:#808040}
+a.star0:active, a.star1:active {color:#ffff00}
+.starred td {background:#ffff00}
+
+/* Conversation labels */
+.locked {background:#808080; color:#fff}
+.private {background:#800080; color:#fff}
+#gambits a.privateText {color:#800080}
+.sticky {background:#808000; color:#fff}
+#gambits a.stickyText {color:#808000}
+#gambits a.starredText {color:#ffff00}
+#gambits a.lockedText {color:#808080}
+.draft {background:#008000; color:#fff}
+#gambits a.draftText {color:#008000}
+
+/* Conversations table */
+.c th {background-color:#c0c0c0}
+.c td {border-bottom:1px solid #808080}
+.c strong a {color:#000}
+.c .author a, .c .lastPost a {color:#000}
+.c td.avatar img {border:1px solid #808080}
+.c .p1 {color:#000000}
+.c .p2 {color:#808080}
+.c .p3 {color:#c0c0c0}
+#newResults td {border:0}
+#searchResults {border-left:1px solid #808080; border-right:1px solid #808080}
+#searchResults tbody > tr:nth-of-type(even) {background-color:#ffffff}
+
+/* Conversation header */
+#cHdr {border:1px solid #000000}
+/* Info and title (left part) */
+#cInfo:not(.text) {border-style:none; border-width:1px}
+#cInfo .editable {border-width:1px; border-color:#000000}
+#cInfo .editable:hover {border-width:1px; border-color:#000000}
+#cInfo .editable:focus {border-style:solid; border-width:1px;}
+#cTags a {background:#000000; color:#000}
+#cTags a:hover {background-color:#000000; text-decoration:none}
+#cTags a:active {background-color:#000000}
+/* Members allowed (right part) */
+#allowed a.d:hover {color:#ff0000; text-decoration:line-through}
+#addMember {border-right:0; border-top-right-radius:0; border-bottom-right-radius:0}
+#addMemberSubmit {border-top-left-radius:0; border-bottom-left-radius:0}
+
+/* Pagination */
+.pg {background:#fff}
+.pg li {border:1px solid #c0c0c0}
+.pg li.middle {border-width:1px 0}
+.pg .viewing div {background:#80ffff; border:1px solid #8080ff}
+.pg .viewing:hover div {background:#c0c0c0}
+.pg .viewing:active div {background:#c0c0c0}
+.pg .unread {background:#ffff80; color:#ff8040}
+
+/* Conversation post */
+.p {border-left-style:solid; border-left-width:1px; border-right-style:solid; border-right-width:1px; border-bottom-style:solid; border-bottom-width:1px}
+.p .hdr, .p .hdr small, .p .hdr a {color:#000}
+.p .hdr select, .p .hdr input.save {border:solid #c0c0c0; border-width:1px}
+.p .hdr select option {background:#fff}
+.p .hdr .controls a {background:#c0c0c0}
+.p .hdr .controls a:hover {background-color:#fff; text-decoration:none}
+.p .hdr .controls a:active {background-color:#808080}
+.p .body video {background:#c0c0c0}
+.deleted, .deleted .hdr, .deleted .hdr a {color:#808080}
+.deleted {background:#c0c0c0; border-color:#c0c0c0}
+
+/* Reply to a conversation */
+.editButtons .button {border-radius:0}
+.editButtons .big {border-radius:5px; border-top-left-radius:0; border-top-right-radius:0}
+
+/* Formatting buttons */
+.p .controls .formattingButtons a:hover {background-color:#fff; text-decoration:none}
+.p .controls .formattingButtons a:active {background-color:#808080}
+
+/* Code, quotes, headers */
+pre {border:1px dashed #c0c0c0}
+code {background:#c0c0c0}
+blockquote {background:#c0c0c0; border:solid #808080; border-width:1px; color:#000}
+blockquote cite {border-bottom:1px dashed #808080}
+.p .body h3 {border-bottom:1px solid #808080}
+.p hr {color:#808080; border:solid #808080; border-width:1px 0 0}
+
+/* Admin */
+#admin {background:#fff; border-left:175px solid #c0c0c0; border-image:#fff; border-image-slice:1; background:#fff}
+#admin .menu {border-right:1px solid #c0c0c0; background:#fff}
+#admin .menu li.active a {background:#fff; border:solid #c0c0c0; border-width:1px 0 1px 1px; color:#000}
+#admin .inner {border-left:1px solid #c0c0c0; background:#fff}
+#admin .stats li {border-bottom:1px solid #c0c0c0; background:#fff}
+.form.logoForm img {border:1px dashed #c0c0c0; background:#fff}
+.form.iconForm img {border:1px solid #c0c0c0; background:#fff}
+
+/* Plugins */
+#plugins .controls a, #plugins .toggle {background:#cdffba; color:#258500}
+#plugins .controls a, #plugins .enabled .toggle {color:#888; background:#c0c0c0}
+#plugins .toggle:hover {background-color:#a3e18c; text-decoration:none}
+#plugins .toggle:active {background-color:#64b346}
+#plugins .enabled .toggle:hover, #plugins .controls a:hover {background-color:#c0c0c0; text-decoration:none}
+#plugins .enabled .toggle:active, #plugins .controls a:active {background-color:#a4a4a4}
+#plugins li {border-bottom:1px solid #c0c0c0}
+#plugins li .settings {background:#fff}
+
+/* Skins */
+#skins a {color:#000}
+#skins a:hover {text-decoration:none}
+#skins .preview {background:#eee; border:1px solid #ddd; color:#ddd}
+#skins a:hover .preview, #skins .enabled .preview {border-color:#aaa}
+
+/* Profile */
+.profile .form li {border-bottom:1px solid #c0c0c0}
+
+/* Footer */
+#ftr #copyright {border:1px solid #000}
+
+/* Inputs, buttons, and other form elements */
+input.text, textarea {background:#fff; border:1px solid #000}
+input.text:focus, textarea:focus {border-color:#000}
+#cInfo .editable:focus {background:#fff}
+input::placeholder {color:#c0c0c0}
+.placeholder {color:#c0c0c0}
+fieldset {border:1px solid #000}
+legend {color:#000}
+fieldset legend a {color:#000}
+fieldset.hidden {border-width:1px 0 0}
+fieldset.hidden legend a {color:#000}
+
+/* Buttons */
+.button {background:#008080; border:1px solid #004080; border-radius:5px; box-shadow:inset 0 1px 1px rgb(255 255 255 / 50%)}
+.button input {color:#fff}
+.buttonDisabled, .buttonDisabled:active, .buttonDisabled:hover {background:#c0c0c0; border:1px solid #808080; box-shadow:inset 0 1px 1px #ffffff}
+.bigDisabled, .bigDisabled:active, .bigDisabled:hover {background:#c0c0c0; border:1px solid #808080; box-shadow:inset 0 1px 1px #ffffff}
+.buttonDisabled input, .buttonDisabled:active input, .buttonDisabled:hover input {color:#999; text-shadow:#fff 0 1px}
+.bigDisabled input, .bigDisabled:active input, .bigDisabled:hover input {color:#808080; text-shadow:#fff 0 1px}
+
+/* Post colors */
+.c0 .hdr, .p .c0 .hdr, #palette .c0 {background:#ffffff} .c0 {border-color:#ffffff}
+.c1 .hdr, .p .c1 .hdr, #palette .c1 {background:#c0c0c0} .c1 {border-color:#c0c0c0}
+.c2 .hdr, .p .c2 .hdr, #palette .c2 {background:#808080} .c2 {border-color:#808080}
+.c3 .hdr, .p .c3 .hdr, #palette .c3 {background:#800080} .c3 {border-color:#800080}
+.c4 .hdr, .p .c4 .hdr, #palette .c4 {background:#4000ff} .c4 {border-color:#4000ff}
+.c5 .hdr, .p .c5 .hdr, #palette .c5 {background:#0080ff} .c5 {border-color:#0080ff}
+.c6 .hdr, .p .c6 .hdr, #palette .c6 {background:#0000ff} .c6 {border-color:#0000ff}
+.c7 .hdr, .p .c7 .hdr, #palette .c7 {background:#008080} .c7 {border-color:#008080}
+.c8 .hdr, .p .c8 .hdr, #palette .c8 {background:#00ffff} .c8 {border-color:#00ffff}
+.c9 .hdr, .p .c9 .hdr, #palette .c9 {background:#000080} .c9 {border-color:#000080}
+.c10 .hdr, .p .c10 .hdr, #palette .c10 {background:#80ffff} .c10 {border-color:#80ffff}
+.c11 .hdr, .p .c11 .hdr, #palette .c11 {background:#00ff00} .c11 {border-color:#00ff00}
+.c12 .hdr, .p .c12 .hdr, #palette .c12 {background:#00ff80} .c12 {border-color:#00ff80}
+.c13 .hdr, .p .c13 .hdr, #palette .c13 {background:#ffff00} .c13 {border-color:#ffff00}
+.c14 .hdr, .p .c14 .hdr, #palette .c14 {background:#ffff80} .c14 {border-color:#ffff80}
+.c15 .hdr, .p .c15 .hdr, #palette .c15 {background:#808000} .c15 {border-color:#808000}
+.c16 .hdr, .p .c16 .hdr, #palette .c16 {background:#ff8040} .c16 {border-color:#ff8040}
+.c17 .hdr, .p .c17 .hdr, #palette .c17 {background:#804000} .c17 {border-color:#804000}
+.c18 .hdr, .p .c18 .hdr, #palette .c18 {background:#ff0000} .c18 {border-color:#ff0000}
+.c19 .hdr, .p .c19 .hdr, #palette .c19 {background:#ff0080} .c19 {border-color:#ff0080}
+.c20 .hdr, .p .c20 .hdr, #palette .c20 {background:#ff00ff} .c20 {border-color:#ff00ff}
+.c21 .hdr, .p .c21 .hdr, #palette .c21 {background:#8080ff} .c21 {border-color:#8080ff}
+.c22 .hdr, .p .c22 .hdr, #palette .c22 {background:#004080} .c22 {border-color:#004080}
+.c23 .hdr, .p .c23 .hdr, #palette .c23 {background:#008000} .c23 {border-color:#008000}
+.c24 .hdr, .p .c24 .hdr, #palette .c24 {background:#004040} .c24 {border-color:#004040}
+.c25 .hdr, .p .c25 .hdr, #palette .c25 {background:#808040} .c25 {border-color:#808040}
+.c26 .hdr, .p .c26 .hdr, #palette .c26 {background:#800000} .c26 {border-color:#800000}
+.c27 .hdr, .p .c27 .hdr, #palette .c27 {background:#000000; color:#ffffff} .c27 {border-color:#000000}
+  
+/* Special properties */
+#forgotPassword, #markAsRead, #startConversation {background:#c0c0c0; border:1px solid #000; color:#000}
+#forgotPassword:hover, #markAsRead:hover, #startConversation:hover {background-color:#c0c0c0; text-decoration:none}
+#forgotPassword:active, #markAsRead:active, #startConversation:active {background-color:#c0c0c0}
+
+/* Mobile properties */
+@media only screen and (max-width:1000px) {
+#wrapper {border-left:0; border-right:0}
+}
+
+@media only screen and (max-width:620px) {
+#admin {margin-top:0; border-left:0; border-image:none; background:unset}
+#admin .menu {border:1px solid #ccc}
+#admin .menu li a {background-color:#eee; border-top:1px solid #ccc}
+#admin .menu li:first-child a {border:none}
+#admin .inner {border-left:0}
+}
+
+/* Formatting controls */
+@media only screen and (max-width:570px) {
+#cPosts .p .hdr .controls {background:#ddd; box-shadow:inset 0 5px 10px rgba(255, 255, 255, 0.4)}
+.formattingCheckbox {border-top:1px solid rgba(0,0,0,0.2)}
+}
+
+}

@@ -1,0 +1,1 @@
+This plugin was created by aokod. I (GigaHacer) have made some modifications to it.

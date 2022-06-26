@@ -1,0 +1,1 @@
+This skin was created by the individual known as "Akefu Raider."

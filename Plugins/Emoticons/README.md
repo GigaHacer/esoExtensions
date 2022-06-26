@@ -1,1 +1,1 @@
-I didn't originally create this plugin but I made some changes to it. (adding the setting to opt out of emoticons and the functionality of that setting)
+This plugin comes prepackaged with esoTalk delta. I (GigaHacer) have made modifications to it.

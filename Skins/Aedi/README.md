@@ -1,0 +1,1 @@
+This skin was created by aokod. This skin's CSS file was downloaded from https://forum.aedi.app/ and was created by the webadmin of that website (aokod).

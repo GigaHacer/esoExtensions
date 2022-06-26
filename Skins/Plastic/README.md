@@ -1,0 +1,1 @@
+This skin comes prepackaged with esoTalk delta.

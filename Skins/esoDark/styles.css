@@ -1,0 +1,286 @@
+@media all {
+/* Main tags */
+body {background:#2f2f2f; background-repeat:no-repeat}
+
+/* Misc */
+small, dt {color:#888}
+small a, dt a {color:#55f}
+#loading {background:#dcff52; border:solid #d4e58f; border-width:0 1px 1px 1px; box-shadow:rgba(0, 0, 0, 0.2) 0 0 3px; -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 0 3px}
+.enabled, #skins a:hover {background:#ffa}
+.disabled {color:#888}
+.disabled:hover {color:#888; text-decoration:none}
+.highlight {background:yellow}
+
+/* Header */
+#hdr {background:linear-gradient(#212121, #252525, #252525); color:#8fce00; border-top-left-radius:10px; border-top-right-radius:10px}
+#hdr h1 a {color:#8fce00; font-weight:bold}
+#hdr h1 a:hover {text-decoration:none}
+#hdr h1 a:hover span {text-decoration:underline}
+
+/* User bar */
+#bar {background:linear-gradient(#252525, #212121, #141414); color:#8fce00; border-bottom-left-radius:10px; border-bottom-right-radius:10px}
+#bar strong a {color:#8fce00}
+#bar span.button {border-radius:2px}
+#bar li a span.button, #bar li a span.button {background:linear-gradient(#dadada, #6fa000); border:1px solid #6fa000}
+#bar li a span.button input, #bar li a span.button input {color:#000; text-shadow:#6fa000 0 1px}
+#bar li a span.button:hover, #bar li a span.button:hover {background:linear-gradient(#b5bba4, #567b00); border:1px solid  #567b00}
+#bar li a span.button:active, #bar li a span.button:active {background:linear-gradient(#8a936f, #3b5500); border:1px solid #3b5500}
+#login {margin-top:-6.5px!important; padding-top:5.5px; padding-bottom:5.5px; padding-right:3px; border-top:0; border-bottom:0; border-left:0; border-right:0px; border-image:#bdbdbd; border-image-slice:1}
+#nav-dpav select {border-radius:0; border-color:#bbb; box-shadow:inset 0 5px 10px rgba(0,0,0,.07); background:#fff}
+#nav-exit span.button, #rss span.button {background:linear-gradient(#5b5b5b, #000000)!important; border:1px solid #000!important; box-shadow:none!important}
+#nav-exit span.button input, #rss span.button input {color:#fff!important; text-shadow:#000 0 1px!important}
+#nav-exit span.button:hover, #rss span.button:hover {background:linear-gradient(#414141, #000000)!important}
+#nav-exit span.button:active, #rss span.button:active {background:linear-gradient(#252525, #000000)!important}
+a#nav-exit {border:0px}
+
+/* Body */
+#body {background:#414141; background-repeat:no-repeat; background-size:100% 90px; padding:10px 25px; padding-bottom:0; color:#FFF}
+#wrapper {max-width:1000px;/*is usually 1000px but now 1366 for widescreen */ border-top:0; border-bottom:0; color:#FFF; border-left:0px solid; border-right:0px solid; border-image:#414141; border-image-slice:1; background:#414141; margin:0 auto; border-radius:20px}
+
+/* Tags & gambits */
+#tagArea {border:1px solid #252525; background:linear-gradient(#212121, #252525, #212121, #141414); border-radius:10px}
+#tags a {color:#777}
+#gambits a {color:#72c4ff}
+a.s1 {font-size:140%}
+a.s2 {font-size:130%}
+a.s3 {font-size:115%}
+a.s4 {font-size:105%}
+a.s5 {font-size:100%}
+
+/* Links */
+a {color:#72c4ff; text-decoration:none}
+a:hover {color:#72c4ff; text-decoration:underline}
+a:active {color:#72c4ff}
+a, .link, .p .hdr a.link {color:#72c4ff}
+
+/* Search form */
+#searchText {border-right:0; border-bottom:0; background:#585858; color:#FFF; border:1px solid #000}
+#submit {border-top-left-radius:0; border-bottom-left-radius:0}
+#reset {color:#bbb}
+#searchText:focus + .fr #reset {color:#555}
+#reset:hover, #searchText:focus ~ #reset:hover {text-decoration:none; color:#000}
+
+/* Messages */
+.msg .close {float:right; border:1px solid #fff; color:#ECEFF1; text-decoration:none; padding:0 5px; margin:-2px -4px 0 0; border-radius:3px}
+.msg .close:hover {background:#fff; color:#000; text-decoration:none}
+.msg .close:active {background:#aaa}
+.msg {background:#cdd8e7; line-height:1.4; margin:0 0 1em 0; padding:5px 10px; border-radius:3px}  /*change color */
+.info {background:#384c64; border-radius:3px}
+.success {background:#cf0; border-radius:3px}
+.warning {background:#c00; color:#fff; border-radius:3px}
+.warning a, .warning a:hover {color:#fff; text-decoration:underline}
+.msg code {background:none}
+
+
+
+/* Conversation labels */
+.locked {background:#000; color:#fff; border-radius:3px}
+.private {background:#7b4b85; color:#fff; border-radius:3px}
+#gambits a.privateText {color:#7b00ad; border-radius:3px}
+.sticky {background:#384c64; color:#fff; border-radius:3px}
+#gambits a.stickyText {color:#6080a7; border-radius:3px}
+#gambits a.starredText {color:#efcb00; border-radius:3px}
+#gambits a.lockedText {color:#888; border-radius:3px}
+.draft {background:#006512; color:#fff; border-radius:3px}
+#gambits a.draftText {color:#0b2; border-radius:3px}
+
+/* Conversations table */
+.c th {background:linear-gradient(#252525, #141414); color:#8fce00; border-bottom: 1px solid #414141}
+.c td {border-bottom:1px solid #414141; background:#252525; color:#FFF}
+.c strong a {color:#FFF}
+.c .author a, .c .lastPost a {color:#FFF}
+.c td.avatar img {border:1px solid #252525; border-radius:3px}
+.c .p1 {color:#fff}
+.c .p2 {color:#666}
+.c .p3 {color:#aaa}
+#newResults td {border:0}
+#searchResults {border-left:1px solid #414141; border-right:1px solid #414141; color:#FFF}
+#searchResults tbody > tr:nth-of-type(even) {background-color:#252525; color:#FFF}
+
+/* Stars */
+.star0 {color:#ccc}
+a.star0:hover {color:#fe7}
+.star1, a.star1:hover {color:#fc0}
+a.star0:active, a.star1:active {color:#e4b600}
+.starred td {background:#6f511d}
+
+/* Conversation header */
+#cHdr {background:linear-gradient(#252525, #141414); color:#8fce00; border-radius:20px}
+/* Info and title (left part) */
+#cInfo input.text {background:#585858; color:#FFF; border:1px solid #000}
+#cInfo .star1, #cInfo .star0 {text-shadow:#fe7 0 0 2px}
+#cInfo .editable:hover {border-style:solid; border-width:1px; border-radius:3}
+#cInfo .editable:focus {border-style:solid; border-width:1px; border-radius:3; color:#000}
+#cTags a {background:#585858; color:#FFF; border:1px solid #000}
+/* Members allowed (right part) */
+#allowed input.text {background:#585858; color:#FFF; border:1px solid #000}
+#allowed a.d {color:#8fce00}
+#allowed a.d:hover {color:#f00; text-decoration:line-through}
+#addMember {border-right:0; border-top-right-radius:0; border-bottom-right-radius:0}
+#addMemberSubmit {border-top-left-radius:0; border-bottom-left-radius:0}
+
+/* Pagination */
+.pg {background:#414141}
+.pg li {border:1px solid #212121; color:#FFF; background:#000}
+.pg li.middle {border-width:1px 0}
+.pg .viewing div {background:#212121; border:1px solid #212121}
+.pg .viewing:hover div {background:#252525}
+.pg .viewing:active div {background:#252525}
+.pg .unread {background:#72c4ff; color:#72c4ff}
+
+/* Conversation post */
+.p {margin-bottom:10px; color:#FFF; border-left-style:solid; border-left-width:1px; border-right-style:solid; border-right-width:1px; border-bottom-style:solid; border-bottom-width:1px; border-radius:3px}
+.p .hdr, .p .hdr small, .p .hdr a {color:#FFF}
+.p .hdr select, .p .hdr input.save {border:dashed rgba(0,0,0,0.2); border-width:1px; border-radius:3px}
+.p .hdr select option {background:#414141; color:#FFF; border-radius:3px}
+.p .hdr .controls a {background:rgba(0,0,0,0.1); border-radius:3px}
+.p .hdr .controls a:hover {background:rgba(0,0,0,0.2); text-decoration:none; border-radius:3px}
+.p .hdr .controls a:active {background:rgba(0,0,0,0.2); border-radius:3px}
+.p .body video {background:rgba(0,0,0,0.05); border-radius:3px}
+.deleted, .deleted .hdr, .deleted .hdr a {color:#888; border-radius:6px}
+.deleted {background:#5e5e5e; border-color:#5e5e5e; border-radius:3px}
+
+/* Reply to a conversation */
+.editButtons .button {border-radius:2}
+.editButtons .big {border-radius:5px; border-top-left-radius:0; border-top-right-radius:0}
+
+/* Formatting buttons */
+.p .controls .formattingButtons a:hover {background-color:rgba(0,0,0,0.5); text-decoration:none; border-radius:2}
+.p .controls .formattingButtons a:active {background-color:rgba(0,0,0,0.2);}
+.p .body textarea {background:#585858; color:#FFF; border:1px solid #272727}
+/* Code, quotes, headers */
+pre {border:1px dashed #bbb}
+code {background:#e6e6e6}
+blockquote {background:rgba(0,0,0,0.05); border:solid rgba(0,0,0,0.1); border-width:1px; color:#; border-radius:3}
+blockquote cite {border-bottom:1px dashed rgba(0,0,0,0.2)}
+.p .body h3 {border-bottom:1px solid #bbb}
+.p hr {color:#bbb; border:solid #bbb; border-width:1px 0 0}
+
+/* Admin */
+#admin {border-left:175px solid #414141; border-image:#252525); border-image-slice:1; background:#252525; color:#FFF; border-right:20px solid #414141; border-top:10px solid #414141}
+#admin .menu {border-right:1px solid #252525; color:#FFF}
+#admin .menu li.active a {background:#252525; border:solid #252525; border-top-left-radius:6px; border-bottom-left-radius:6px; border-width:2px 0 2px 2px; color:#FFF}
+#admin .inner {border-left:1px solid #252525; color:#FFF}
+#admin .stats li {border-bottom:1px solid #ddd; border-radius:6px; color:#FFF}
+#admin .stats {color:#FFF}
+.form.logoForm img {border:1px dashed #bbb; color:#FFF}
+.form.iconForm img {border:1px solid #ddd; color:#FFF}
+
+/* Plugins */
+#plugins .controls a, #plugins .toggle {background:linear-gradient(#5b5b5b, #000000); color:#258500; border: 1px solid #000000; border-radius:2px}
+#plugins .controls a, #plugins .enabled .toggle {color:#FFF; background:linear-gradient(#5b5b5b, #000000); border: 1px solid #000000; border-radius:2px}
+#plugins .toggle:hover {background:linear-gradient(#414141, #000000); text-decoration:none}
+#plugins .toggle:active {background:linear-gradient(#252525, #000000)}
+#plugins .enabled .toggle:hover, #plugins .controls a:hover {background:linear-gradient(#414141, #000000); text-decoration:none}
+#plugins .enabled .toggle:active, #plugins .controls a:active {background:linear-gradient(#252525, #000000)}
+#plugins li {border-bottom:1px solid #ddd}
+#plugins li .settings {background:#414141}
+#plugins .enabled {background:#6f511d}
+
+/* Skins */
+#skins a {color:#FFF}
+#skins a:hover {text-decoration:none; border-color:#6f511d}
+#skins .preview {background:#000; border:1px solid #ddd; color:#ddd}
+#skins a:hover .preview, #skins .enabled .preview {background:#6f511d}
+#skins .enabled {background:#6f511d}
+#skins a:hover {background:#6f511d}
+
+/* Profile */
+.profile .form li {border-bottom:1px solid rgba(0,0,0,0.1)}
+
+/* Footer */
+#ftr #copyright {border:1px solid #414141; background:#414141; color:#FFF}
+
+/* Inputs, buttons, and other form elements */
+input.text, textarea {background:#585858; color:#FFF; border:1px solid #000}
+input.text:focus, textarea:focus {background:#585858; color:#FFF; border:1px solid #000}
+#cInfo .editable {background:#585858; color:#FFF; border:1px solid #000}
+#cInfo .editable:focus {background:#585858; color:#FFF; border:1px solid #000}
+input::placeholder {background:#585858; color:#FFF}
+.placeholder {color:#aaa}
+fieldset {border:1px solid #ccc}
+legend {color:#FFF}
+code {color:#FFF; background:#414141}
+fieldset legend a {color:#FFF}
+fieldset.hidden {border-width:1px 0 0}
+fieldset.hidden legend a {color:#666}
+select {background:#585858; color:#FFF; border:1px solid #000}
+
+/* Buttons */
+.button, .button input {cursor:pointer; display:-moz-inline-box; display:inline-block; height:20.3px; padding:0; text-align:center; text-shadow:#000000 0 1px; border:1px solid #1a6b9d; border-radius:5px; box-shadow:inset 0 0px 0px rgb(255 255 255 / 50%)}}
+.button {background:linear-gradient(#5b5b5b, #000000); margin:0; border:1px solid #000; border-radius:9px; height:18px}
+.button input {background:none; border:0; color:#fff; margin-left:5px; margin-right:5px; height:18px}
+.big {height:25px}
+.big input {font-size:140%; height:26px}
+.button:hover {background:linear-gradient(#414141, #000000)}
+.button:active {background:linear-gradient(#252525, #000000)}
+.buttonDisabled, .buttonDisabled:active, .buttonDisabled:hover {background:#585858; border:1px solid #000; box-shadow:none; cursor:default; color:#000; text-shadow:#000000 0 0px}
+.bigDisabled, .bigDisabled:active, .bigDisabled:hover {background:#585858; border:1px solid #000; box-shadow:none; cursor:default; color:#000; text-shadow:#000000 0 0px}
+.buttonDisabled input, .buttonDisabled:active input, .buttonDisabled:hover input {text-shadow:#000 0 1px; cursor:default; color:#000; text-shadow:#000000 0 0px}
+.bigDisabled input, .bigDisabled:active input, .bigDisabled:hover input {color:#585858; text-shadow:#000 0 1px; cursor:default; color:#000; text-shadow:#000000 0 0px}
+
+/* My settings */
+#settings {color:#FFF}
+#settings .post {margin:0}
+#settings .submit {margin-bottom:5px}
+#preview .body {overflow:visible}
+form#settingsAvatar {padding-bottom:8px}
+#settingsAvatar label {width:20em}
+#settingsAvatar li:last-child {margin-top:-20px}
+#settingsPassword label {width:12em}
+#settingsOther label {width:32em}
+#settingsOther input.checkbox, #settingsOther input.radio {margin:3px 5px 5px 0}
+.hidden#settingsOther, .hidden#settingsPassword {margin-bottom:5px; padding-bottom:0}
+#settings select {background:#585858; color:#FFF; border:1px solid #000}
+#settings input.text {background:#585858; color:#FFF; border:1px solid #000}
+/* Post colors */
+.c0 .hdr, .p .c0 .hdr, #palette .c0 {background:#ffffff} .c0 {border-color:#ffffff}
+.c1 .hdr, .p .c1 .hdr, #palette .c1 {background:#9090904e} .c1 {border-color:#9090904e; background:#0000000e}
+.c2 .hdr, .p .c2 .hdr, #palette .c2 {background:#5e5e5e4e} .c2 {border-color:#5e5e5e4e; background:#0000000e}
+.c3 .hdr, .p .c3 .hdr, #palette .c3 {background:#8d008c4e} .c3 {border-color:#8d008c4e; background:#8d008c0e}
+.c4 .hdr, .p .c4 .hdr, #palette .c4 {background:#50008d4e} .c4 {border-color:#50008d4e; background:#50008d0e}
+.c5 .hdr, .p .c5 .hdr, #palette .c5 {background:#0b008d4e} .c5 {border-color:#0b008d4e; background:#0b008d0e}
+.c6 .hdr, .p .c6 .hdr, #palette .c6 {background:#002d8d4e} .c6 {border-color:#002d8d4e; background:#002d8d0e}
+.c7 .hdr, .p .c7 .hdr, #palette .c7 {background:#00658d4e} .c7 {border-color:#00658d4e; background:#00658d0e}
+.c8 .hdr, .p .c8 .hdr, #palette .c8 {background:#00848d4e} .c8 {border-color:#00848d4e; background:#00848d0e}
+.c9 .hdr, .p .c9 .hdr, #palette .c9 {background:#008d584e} .c9 {border-color:#008d584e; background:#008d580e}
+.c10 .hdr, .p .c10 .hdr, #palette .c10 {background:#1f92004e} .c10 {border-color:#1f92004e; background:#1f92000e}
+.c11 .hdr, .p .c11 .hdr, #palette .c11 {background:#6592004e} .c11 {border-color:#6592004e; background:#6592000e}
+.c12 .hdr, .p .c12 .hdr, #palette .c12 {background:#a0a75a4e} .c12 {border-color:#a0a75a4e; background:#a0a75a0e}
+.c13 .hdr, .p .c13 .hdr, #palette .c13 {background:#aa99354e} .c13 {border-color:#aa99354e; background:#aa99350e}
+.c14 .hdr, .p .c14 .hdr, #palette .c14 {background:#a781004e} .c14 {border-color:#a781004e; background:#a781000e}
+.c15 .hdr, .p .c15 .hdr, #palette .c15 {background:#c26b004e} .c15 {border-color:#c26b004e; background:#c26b000e}
+.c16 .hdr, .p .c16 .hdr, #palette .c16 {background:#c238004e} .c16 {border-color:#c238004e; background:#c238000e}
+.c17 .hdr, .p .c17 .hdr, #palette .c17 {background:#a700004e} .c17 {border-color:#a700004e; background:#a700000e}
+.c18 .hdr, .p .c18 .hdr, #palette .c18 {background:#c200384e} .c18 {border-color:#c200384e; background:#c200380e}
+.c19 .hdr, .p .c19 .hdr, #palette .c19 {background:#c2006b4e} .c19 {border-color:#c2006b4e; background:#c2006b0e}
+.c20 .hdr, .p .c20 .hdr, #palette .c20 {background:#c0409d4e} .c20 {border-color:#c0409d4e; background:#c0409d0e}
+.c21 .hdr, .p .c21 .hdr, #palette .c21 {background:#b23cb14e} .c21 {border-color:#b23cb14e; background:#b23cb10e}
+.c22 .hdr, .p .c22 .hdr, #palette .c22 {background:#845aa54e} .c22 {border-color:#845aa54e; background:#845aa50e}
+.c23 .hdr, .p .c23 .hdr, #palette .c23 {background:#5a61a54e} .c23 {border-color:#5a61a54e; background:#5a61a50e}
+.c24 .hdr, .p .c24 .hdr, #palette .c24 {background:#5aa5994e} .c24 {border-color:#5aa5994e; background:#5aa5990e}
+.c25 .hdr, .p .c25 .hdr, #palette .c25 {background:#72905f4e} .c25 {border-color:#72905f4e; background:#72905f0e}
+.c26 .hdr, .p .c26 .hdr, #palette .c26 {background:#885d374e} .c26 {border-color:#885d374e; background:#885d370e}
+.c27 .hdr, .p .c27 .hdr, #palette .c27 {background:#0000004e} .c27 {border-color:#0000004e; background:#0000000e}
+.c28 .hdr, .p .c28 .hdr, #palette .c28 {background:#fec0c04e} .c28 {border-color:#fec0c04e; background:#fec0c00e} 
+/* Special properties */
+#forgotPassword, #markAsRead, #startConversation {background:#252525; color:#FFF; border-radius:3px}
+#forgotPassword:hover, #markAsRead:hover, #startConversation:hover {background-color:#313131; text-decoration:none; border-radius:3px}
+#forgotPassword:active, #markAsRead:active, #startConversation:active {background-color:#191919; border-radius:3px}
+input.text, textarea, .pg {background:#585858; color:#FFF}
+
+/* Mobile properties */
+@media only screen and (max-width:1000px) {
+#wrapper {border-left:0; border-right:0}
+}
+
+@media only screen and (max-width:620px) {
+#admin .menu {border:1px solid #414141}
+#admin .menu li a {background-color:#414141; border-top:1px solid #414141}
+}
+
+/* Formatting controls */
+@media only screen and (max-width:570px) {
+.p .hdr .controls {background:#ddd}
+.formattingCheckbox {border-top:1px solid rgba(0,0,0,0.2)}
+}

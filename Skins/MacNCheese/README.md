@@ -1,0 +1,1 @@
+I (GigaHacer) created this skin. The images in the skin were taken from the internet so they may be subject to copyright.

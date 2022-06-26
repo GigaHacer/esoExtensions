@@ -279,7 +279,7 @@ blockquote p {margin-bottom:.75em}
 #skins a:hover .preview, #skins .enabled .preview {border-color:#aaa}
 
 /* Profile */
-.profile {background:#fff;}
+.profile {background:#fff}
 .profile .body {overflow:visible; padding:5px 10px}
 .profile .form label {font-weight:normal; text-align:left; width:30%}
 .profile .form div {float:none; font-size:115%; margin-left:35%}
@@ -316,6 +316,7 @@ fieldset.hidden legend a {color:#666}
 .bigDisabled input, .bigDisabled:active input, .bigDisabled:hover input {color:#999; text-shadow:#fff 0 1px}
 
 /* Post colors */
+.c0 .hdr, .p .c0 .hdr, #palette .c0 {background:#ffffff} .c0 {border-color:#ffffff}
 .c1 .hdr, .p .c1 .hdr, #palette .c1 {background:#dfdfdf} .c1 {border-color:#dfdfdf}
 .c2 .hdr, .p .c2 .hdr, #palette .c2 {background:#d2d2d2} .c2 {border-color:#d2d2d2}
 .c3 .hdr, .p .c3 .hdr, #palette .c3 {background:#cf9eff} .c3 {border-color:#cf9eff}

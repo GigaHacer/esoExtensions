@@ -1,0 +1,6 @@
+details, details[open] summary {margin-bottom:1em}
+details summary::-webkit-details-marker, details::marker, details:marker, details > summary::-webkit-details-marker {display:none}
+details > summary {list-style:none}
+details summary {font-size:90%; line-height:1.5; margin:0; background:rgba(0,0,0,0.1); color:#000; width:4.5em; margin-right:calc(100% - 4.5em); text-align:center; display:inline-block; user-select:none; cursor:pointer}
+details summary:hover {background-color:#ccc; text-decoration:none}
+details summary:active {background-color:#888}
